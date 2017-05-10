@@ -1,0 +1,14 @@
+.Imagen
+{
+	width:  	 500px;
+	height: 	 300px;
+	text-align: center;
+}
+.Etiqueta
+{
+	background-color: brown;
+	color: 			  white;
+	font-size: 		   12pt;
+	text-align: 	 center;
+	width: 			  500px;
+}

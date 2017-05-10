@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+    <title>
+      Mi página con script	
+    </title>
+    <meta charset="utf-8">
+      <script type="text/javascript"
+              src="Scripts/cambiarColor.js">
+      </script>
+      <script type="text/javascript"
+              src="Scripts/cambiarFuente.js">
+      </script>
+  </head>
+  <body>
+    <p>
+      Color de fondo:
+    </p>
+
+    <img src="../Ejercicios/Imagenes/rojo.png" onclick="cambiarColor('red')"> 
+    <img src="../Ejercicios/Imagenes/verde.png" onclick="cambiarColor('green')"> 
+    <img src="../Ejercicios/Imagenes/azul.png" onclick="cambiarColor('blue')">
+
+    <p>
+      Tamaño de letra:
+    </p>
+
+	<img src="../Ejercicios/Imagenes/letra.png" 
+    	 width="3%"
+         height="5%"
+         onclick="cambiarLetra('20pt')">
+    <img src="../Ejercicios/Imagenes/letra.png" 
+    	 width="5%"
+         height="8%"
+         onclick="cambiarLetra('40pt')">
+    <img src="../Ejercicios/Imagenes/letra.png" 
+    	 width="8%"
+         height="12%"
+         onclick="cambiarLetra('60pt')">
+
+    <p id="miParrafo">
+      Mi párrafo
+    </p> 
+
+  </body>
+
+</html>

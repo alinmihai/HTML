@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Página con párrafos con ID</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Estilos/EstiloID.css">
+	<script type="text/javascript">
+	function CambiarParrafo()
+	{
+
+		var p;
+		p = document.getElementById('parrafo1');
+		p.innerHTML += "Y LLEGA LLUVIOSA";
+
+	}
+	</script>
+</head>
+<body>
+    <p id="parrafo1" align="center">
+    	Ya está aqui la primavera.
+    </p>
+    <img id="imagen1" 
+    	 src="ImagenesStandard/primavera.jpg"
+    	 onclick="CambiarParrafo()">
+    <p id="parrafo2" align="center">
+    	Próximo destino: Noruega.
+    </p>
+    <img id="imagen2" 
+    	 src="ImagenesStandard/Noruega.jpg">
+</body>
+</html>

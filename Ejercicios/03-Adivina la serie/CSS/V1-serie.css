@@ -1,0 +1,39 @@
+#parrafo1
+{
+	font-size: 30pt;
+	color: blue;
+	background: red;
+	font-weight: bold;
+}
+#imagen1
+{
+	width: 250px;
+	height: 150px;
+}
+#parrafo2
+{
+	font-size: 14pt;
+}
+#parrafo3
+{
+	font-size: 14pt;
+}
+#imagen2
+{
+	width: 200px;
+	height: 100px;
+}
+#parrafo4
+{
+	font-size: 10pt;
+}
+#parrafo5
+{
+	font-size: 10pt;
+}
+#parrafo6
+{
+	font-size: 24pt;
+	color: blue;
+	background: DarkMagenta;
+}

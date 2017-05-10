@@ -1,0 +1,32 @@
+#parrafo1
+{
+	font-size: 30pt;
+	color: blue;
+	background: red;
+	font-weight: bold;
+}
+.Imagenes
+{
+	width: 250px;
+	height: 150px;
+}
+.RespuestasGrandes
+{
+	font-size: 14pt;
+}
+.RespuestasMedianas
+{
+	font-size: 10pt;
+}
+.ResultadoSerie
+{
+	font-size: 24pt;
+	color: blue;
+	background: DarkMagenta;
+}
+#Resultado
+{
+	font-size: 24pt;
+	color: blue;
+	background: DarkMagenta;
+}

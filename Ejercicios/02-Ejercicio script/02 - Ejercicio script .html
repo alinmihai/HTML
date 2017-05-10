@@ -1,0 +1,121 @@
+<html>
+
+  <head>
+    <title>
+      Mi página con script	
+    </title>
+    <meta charset="utf-8">
+      <script type="text/javascript">
+
+       /* Sin optimizar (en comentarios) */
+
+       /* function fondoRojo(){
+
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.backgroundColor = "Red"; 
+        }
+
+        function fondoVerde(){
+          
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.backgroundColor = "Green";
+        }
+
+        function fondoAzul(){
+          
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.backgroundColor = "Blue";
+        }
+
+        function pequeño(){
+          
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.fontSize = "20pt";
+        }
+
+        function mediano(){
+          
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.fontSize = "40pt";
+        }
+
+        function grande(){
+          
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.fontSize = "60pt";
+        } */
+
+        function cambiarColor(color){
+
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.backgroundColor = color;
+        }
+
+        function cambiarLetra(letra){
+          
+          var p;
+          p = document.getElementById("miParrafo");
+          p.style.fontSize = letra;
+        }
+
+      </script>
+  </head>
+  <body>
+
+    <p>
+      Color de fondo:
+    </p>
+<!--    
+    <img src="Imagenes/rojo.png" onclick="fondoRojo()"> 
+    <img src="Imagenes/verde.png" onclick="fondoVerde()"> 
+    <img src="Imagenes/azul.png" onclick="fondoAzul()">  
+-->
+    <img src="Imagenes/rojo.png" onclick="cambiarColor('red')"> 
+    <img src="Imagenes/verde.png" onclick="cambiarColor('green')"> 
+    <img src="Imagenes/azul.png" onclick="cambiarColor('blue')">
+
+    <p>
+      Tamaño de letra:
+    </p>
+
+<!--
+    <img src="Imagenes/letra.png" 
+    	 width="3%"
+         height="5%"
+         onclick="pequeño()">
+    <img src="Imagenes/letra.png" 
+    	 width="5%"
+         height="8%"
+         onclick="mediano()">
+    <img src="Imagenes/letra.png" 
+    	 width="8%"
+         height="12%"
+         onclick="grande()">
+-->
+	<img src="Imagenes/letra.png" 
+    	 width="3%"
+         height="5%"
+         onclick="cambiarLetra('20pt')">
+    <img src="Imagenes/letra.png" 
+    	 width="5%"
+         height="8%"
+         onclick="cambiarLetra('40pt')">
+    <img src="Imagenes/letra.png" 
+    	 width="8%"
+         height="12%"
+         onclick="cambiarLetra('60pt')">
+
+    <p id="miParrafo">
+      Mi párrafo
+    </p> 
+
+  </body>
+
+</html>

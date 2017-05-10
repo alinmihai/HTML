@@ -1,0 +1,28 @@
+h1
+{
+	background-color: red;
+	font-size: 24pt;
+	color: white;
+	font-weight: bold;
+}
+h2
+{
+	background-color:yellow;
+	font-size: 24pt;
+	color: white;
+	font-weight: bold;
+}
+h3
+{
+	background-color: blue;
+	font-size: 24pt;
+	color: white;
+	font-weight: bold;
+}
+hr
+{
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+	width: 300;
+}

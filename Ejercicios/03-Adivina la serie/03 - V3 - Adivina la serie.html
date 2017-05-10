@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adivina la serie</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" 
+        type="text/css" 
+        href="CSS/V3-serie.css">
+  <script type="text/javascript"  
+          src="JavaScript/V3-serie.js">
+  </script>
+</head>
+<body>
+  <p class="Cabecera">
+       Adivina la serie:
+  </p>
+  <img class="Imagenes" 
+       src="../Imagenes/ncis.jpg" 
+       id="imagen1">
+  <p id="parrafo2" 
+     onclick="Errores('parrafo2','imagen1')"
+     class="RespuestasGrandes">
+    Hawaii 5.0
+  </p>
+  <p id="parrafo3" 
+     onclick="Aciertos('parrafo3','imagen1')"
+     class="RespuestasGrandes">
+    NCIS
+  </p>
+  <img src="../Imagenes/walking.jpg" 
+       id="imagen2"
+       class="Imagenes">
+  <p id="parrafo4" 
+     onclick="Aciertos('parrafo4','imagen2')"
+     class="RespuestasMedianas">
+    Walking Dead
+  </p>  
+  <p id="parrafo5" 
+     onclick="Errores('parrafo5','imagen2')"
+     class="RespuestasMedianas">
+    Narcos
+  </p>
+  <p id="Resultado"
+     class="ResultadoSerie">
+    Aciertos: <span id="idAciertos">0</span>
+    Fallos: <span id="idFallos">0</span>
+  </p>
+</body>
+</html>
